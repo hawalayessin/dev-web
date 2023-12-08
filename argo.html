@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="" href="styles.css" />
+    <title>Votre Page</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+
+      .section {
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        text-align: center;
+        font-size: 24px;
+        position: relative; /* Ajout de cette ligne pour positionner l'image par rapport à la section */
+      }
+
+      .section img {
+        position: absolute;
+        left: 10px; /* Ajustez cette valeur selon votre besoin */
+        top: 50%; /* Ajustez cette valeur selon votre besoin */
+        transform: translateY(-50%);
+      }
+
+      #section1 {
+        background: url("front.png") center/cover no-repeat;
+      }
+
+      #section2 {
+        background: url("23.jpg") center/cover no-repeat;
+      }
+
+      #section3 {
+        background: url("11.png") center/cover no-repeat;
+      }
+
+      #section4 {
+        background: url("terre.png") center/cover no-repeat; /* Remplacez "background-image-for-section4.jpg" par le chemin de votre image de fond */
+      }
+    </style>
+  </head>
+  <body>
+    <section id="section1" class="section">
+      <div>
+        <img src="arr.png" alt="" class="section2-link" />
+        <h3>
+          Prêt pour un périple intergalactique ? Choisissez <br />
+          votre porte d'entrée vers les planètes et laissez-vous séduire par
+          <br />
+          les secrets célestes. De Mercure à Neptune, chaque page est une <br />
+          invitation à percer les mystères de notre système solaire. <br />
+        </h3>
+        <div class="section2-container">
+          <a href="#section2" class="section2-link">
+            <img src="arr.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section2" class="section">
+      <div>
+        <img src="arr.png" alt="" class="section2-link" />
+
+        <h4>
+          Mercure est la planète la plus proche du Soleil dans notre système
+          <br />
+          solaire. Elle est caractérisée par des températures extrêmes, <br />
+          atteignant jusqu'à 430 degrés Celsius le jour et chutant à environ
+          <br />
+          -180 degrés Celsius la nuit en raison de l'absence d'une atmosphère
+          <br />
+          significative pour retenir la chaleur. Mercure est également la plus
+          <br />
+          petite planète du système solaire.
+        </h4>
+
+        <div class="section2-container">
+          <a href="#section3" class="section2-link">
+            <img src="arr.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section3" class="section">
+      <div>
+        <img src="arr.png" alt="" class="section2-link" />
+
+        <h4>
+          Vénus est la deuxième planète du système solaire, <br />souvent
+          appelée la "sœur jumelle de la Terre" en raison de sa taille
+          <br />similaire.Son atmosphère dense est principalement composée de
+          dioxyde de carbone, <br />
+          provoquant un effet de serre intense et des températures de surface
+          <br />
+          extrêmement élevées.
+        </h4>
+        <div class="section2-container">
+          <a href="#section4" class="section2-link">
+            <img src="arr.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section id="section4" class="section">
+      <div>
+        <h4>
+          La Terre est la troisième planète du système solaire <br />, située à
+          une distance d'environ 150 millions de kilomètres du Soleil <br />, et
+          elle est le seul corps céleste connu pour abriter la vie. <br />
+          <br />
+        </h4>
+        <div class="section2-container">
+          <a href="#section3" class="section2-link">
+            <img src="arr.png" alt="" />
+          </a>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>

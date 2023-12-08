@@ -1,0 +1,10 @@
+.section2-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #fff;
+}
+@font-face {
+  font-family: Didact Gothic;
+  src: url("https://fonts.googleapis.com/css2?family=Didact+Gothic&family=Pacifico&family=Rajdhani&family=Roboto:wght@100&family=Sansita+Swashed&family=Satisfy&family=Space+Mono&display=swap");
+}
